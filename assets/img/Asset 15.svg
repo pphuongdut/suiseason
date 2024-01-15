@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 834.29 834.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+        stroke-width: 0px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="421.8" cy="417.15" fx="421.8" fy="417.15" r="418.99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00efff"/>
+      <stop offset=".01" stop-color="#08f0fe"/>
+      <stop offset=".09" stop-color="#31f5fe"/>
+      <stop offset=".16" stop-color="#50f9fe"/>
+      <stop offset=".23" stop-color="#67fcfe"/>
+      <stop offset=".3" stop-color="#75fefe"/>
+      <stop offset=".35" stop-color="#7afffe"/>
+      <stop offset=".4" stop-color="#7ffffe" stop-opacity=".96"/>
+      <stop offset=".48" stop-color="#8efffe" stop-opacity=".84"/>
+      <stop offset=".58" stop-color="#a7fffe" stop-opacity=".66"/>
+      <stop offset=".71" stop-color="#cafffe" stop-opacity=".4"/>
+      <stop offset=".85" stop-color="#f5fffe" stop-opacity=".07"/>
+      <stop offset=".87" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <circle class="cls-1" cx="417.15" cy="417.15" r="417.15"/>
+  </g>
+</svg>

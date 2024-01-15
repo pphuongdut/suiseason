@@ -12,386 +12,217 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616636.png" id="scroll-icon">🡣</img>
+
         <div class="bg-white">
             <!-- Header -->
-            <header class="absolute inset-x-0 top-0 z-50">
+            <header class="absolute top-0 inset-x-0 top-0 z-50 px-20">
                 <nav
-                    class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-                    aria-label="Global"
+                    class="flex flex-wrap items-center justify-between p-6 lg:px-8"
+                    aria-label="Suiseason"
                 >
-                    <div class="flex lg:flex-1">
-                        <a href="#" class="-m-1.5 p-1.5">
-                            <span class="sr-only">Your Company</span>
+                    <div class="flex">
+                        <a target="_blank" href="#" class="-m-1.5 p-1.5">
                             <img
-                                class="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                class="h-12 w-fit"
+                                src="./assets/img/full-logo.png"
                                 alt=""
                             />
                         </a>
                     </div>
-                    <div class="flex lg:hidden">
-                        <button
-                            type="button"
-                            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                        >
-                            <span class="sr-only">Open main menu</span>
-                            <svg
-                                class="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                                />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="hidden lg:flex lg:gap-x-12">
+                    
+                    <div class="flex gap-6 text-white ">
                         <a
-                            href="#"
-                            class="text-sm font-semibold leading-6 text-gray-900"
-                            >Product</a
+                            href="#howtobuy"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            >How to buy</a
                         >
                         <a
-                            href="#"
-                            class="text-sm font-semibold leading-6 text-gray-900"
-                            >Features</a
+                            href="#chart"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            target="_blank"
+                            >Chart</a
                         >
                         <a
-                            href="#"
-                            class="text-sm font-semibold leading-6 text-gray-900"
-                            >Resources</a
+                            href="https://twitter.com/Suiseason_lfg"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            target="_blank"
+                            >Twitter</a
                         >
                         <a
-                            href="#"
-                            class="text-sm font-semibold leading-6 text-gray-900"
-                            >Company</a
+                            href="https://t.me/Suiseason_lord "
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            target="_blank"
+                            >Telegram</a
                         >
-                    </div>
-                    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+
                         <a
-                            href="#"
-                            class="text-sm font-semibold leading-6 text-gray-900"
-                            >Log in <span aria-hidden="true">&rarr;</span></a
+                            href="#buy"
+                            class="text-base font-semibold leading-6 text-white uppercase"
+                            >Buy</a
                         >
                     </div>
                 </nav>
             </header>
 
-            <main class="">
-                <div class=" header-container">
+            <main class="overflow-hidden">
+                <div class="header-container h-screen">
                     <div
-                        class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4"
-                    >
-                        <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
-                            <div
-                                class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-3"
-                            >
-                                <div>
-                                    <h2
-                                        class="text-4xl font-bold tracking-tight text-gray-900"
-                                    >
-                                        We built our business on great customer
-                                        service
-                                    </h2>
-                                    <p class="mt-4 text-gray-500">
-                                        At the beginning at least, but then we
-                                        realized we could make a lot more money
-                                        if we kinda stopped caring about that.
-                                        Our new strategy is to write a bunch of
-                                        things that look really good in the
-                                        headlines, then clarify in the small
-                                        print but hope people don't actually
-                                        read it.
-                                    </p>
-                                </div>
-                                <div
-                                    class="aspect-h-2 aspect-w-3 col-span-2 overflow-hidden rounded-lg bg-gray-100"
-                                >
-                                    <img
-                                        src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg"
-                                        alt=""
-                                        class="object-cover object-center"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32"
+                    class="grid grid-cols-1 items-end gap-x-16 gap-y-10 lg:grid-cols-2 p-10 h-full pt-24"
                 >
-                    <img
-                        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-                        alt=""
-                        class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-                    />
-                    <div
-                        class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-                    >
-                        <div
-                            class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-                            style="
-                                clip-path: polygon(
-                                    74.1% 44.1%,
-                                    100% 61.6%,
-                                    97.5% 26.9%,
-                                    85.5% 0.1%,
-                                    80.7% 2%,
-                                    72.5% 32.5%,
-                                    60.2% 62.4%,
-                                    52.4% 68.1%,
-                                    47.5% 58.3%,
-                                    45.2% 34.5%,
-                                    27.5% 76.7%,
-                                    0.1% 64.9%,
-                                    17.9% 100%,
-                                    27.6% 76.8%,
-                                    76.1% 97.7%,
-                                    74.1% 44.1%
-                                );
-                            "
-                        ></div>
-                    </div>
-                    <div
-                        class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
-                    >
-                        <div
-                            class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-                            style="
-                                clip-path: polygon(
-                                    74.1% 44.1%,
-                                    100% 61.6%,
-                                    97.5% 26.9%,
-                                    85.5% 0.1%,
-                                    80.7% 2%,
-                                    72.5% 32.5%,
-                                    60.2% 62.4%,
-                                    52.4% 68.1%,
-                                    47.5% 58.3%,
-                                    45.2% 34.5%,
-                                    27.5% 76.7%,
-                                    0.1% 64.9%,
-                                    17.9% 100%,
-                                    27.6% 76.8%,
-                                    76.1% 97.7%,
-                                    74.1% 44.1%
-                                );
-                            "
-                        ></div>
-                    </div>
-                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div class="mx-auto lg:mx-0 text-center">
-                            <h2
-                                class="text-4xl font-bold tracking-tight text-white sm:text-6xl"
-                            >
-                                Support center
-                            </h2>
-                            <p class="mt-6 text-lg leading-8 text-gray-300">
-                                Anim aute id magna aliqua ad ad non deserunt
-                                sunt. Qui irure qui lorem cupidatat commodo.
-                                Elit sunt amet fugiat veniam occaecat fugiat
-                                aliqua.
-                            </p>
-                        </div>
-                        <div
-                            class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+                    <div class="flex flex-col h-full justify-center lg:pl-20">
+                        <img
+                            src="./assets/img/brand-name-only.svg"
                         >
-                            <div class="flex gap-x-4">
-                                <svg
-                                    class="h-7 w-5 flex-none text-indigo-400"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    aria-hidden="true"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z"
-                                        clip-rule="evenodd"
-                                    />
-                                </svg>
-                                <div class="text-base leading-7">
-                                    <h3 class="font-semibold text-white">
-                                        Sales
-                                    </h3>
-                                    <p class="mt-2 text-gray-300">
-                                        Consectetur vel non. Rerum ut
-                                        consequatur nobis unde. Enim est quo
-                                        corrupti consequatur.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex gap-x-4">
-                                <img
-                                    class="aspect-[3/2] w-full rounded-2xl object-cover"
-                                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                                    alt=""
-                                />
-                                <h3
-                                    class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900"
-                                >
-                                    Lindsay Walton
-                                </h3>
-                            </div>
-                            <div class="flex gap-x-4">
-                                <svg
-                                    class="h-7 w-5 flex-none text-indigo-400"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    aria-hidden="true"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M2 3.5A1.5 1.5 0 013.5 2h9A1.5 1.5 0 0114 3.5v11.75A2.75 2.75 0 0016.75 18h-12A2.75 2.75 0 012 15.25V3.5zm3.75 7a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zm0 3a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM5 5.75A.75.75 0 015.75 5h4.5a.75.75 0 01.75.75v2.5a.75.75 0 01-.75.75h-4.5A.75.75 0 015 8.25v-2.5z"
-                                        clip-rule="evenodd"
-                                    />
-                                    <path
-                                        d="M16.5 6.5h-1v8.75a1.25 1.25 0 102.5 0V8a1.5 1.5 0 00-1.5-1.5z"
-                                    />
-                                </svg>
-                                <div class="text-base leading-7">
-                                    <h3 class="font-semibold text-white">
-                                        Media Inquiries
-                                    </h3>
-                                    <p class="mt-2 text-gray-300">
-                                        Ratione et porro eligendi est sed
-                                        ratione rerum itaque. Placeat
-                                        accusantium impedit eum odit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Content section -->
-                <div class="mt-32 overflow-hidden sm:mt-40 px-20">
-                    <div class="mx-auto lg:mx-0 text-center">
-                        <h2 class="text-4xl font-bold">How to buy</h2>
-                        <p class="mt-6 text-lg leading-8 text-gray-700">
-                            Anim aute id magna aliqua ad ad non deserunt sunt.
-                            Qui irure qui lorem cupidatat commodo. Elit sunt
-                            amet fugiat veniam occaecat fugiat aliqua.
+                        </img>
+                        <h3 class="header-brand-title text-blue-700 font-bold">
+                            Why $SON?
+                        </h3>
+                        <p class="header-description mt-4 text-blue-800 font-semibold">
+                            $SON is the mischievous younger brother of $SUI. Being the eldest in the family, it carries a big mission...
+                            Get ready for the Sui meme season to kick in!
                         </p>
                     </div>
-                    <nav class="my-20">
-                        <div
-                            role="list"
-                            class="grid grid-cols-3 grid-rows-3 gap-4"
+                    <div
+                        class="aspect-h-2 aspect-w-3 col-span-1 hidden lg:block"
+                    >
+                        <img
+                            src="./assets/img/droplets.svg"
+                            alt=""
+                            class="object-center"
+                        />
+                    </div>
+                </div>
+                </div>
+
+               <div class="about-me-section h-screen w-screen flex flex-col justify-center items-center">
+              <div class="translate-y-1/2 translate-x-1/2">
+                  <h2 class="text-6xl font-bold">Tokenomics</h2>
+                <p class="mt-6 text-xl leading-8 font-bold"> Total Supply: 1.000.000.000</p>
+                <dl class="flex gap-20 my-10">
+                    <div class="flex flex-col gap-y-3 border-l border-white/10">
+                      <dt class="text-base leading-6 font-bold">LP</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight">90%</dd>
+                    </div>
+                    <div class="flex flex-col gap-y-3 border-l border-white/10">
+                      <dt class="text-base leading-6 font-bold">Marketing</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight">10%</dd>
+                    </div>
+                  </dl>
+              </div>
+               </div>
+               <div id="howtobuy" class="mt-32 how-to-buy--section overflow-hidden sm:mt-40 px-20">
+                <div class="mx-auto lg:mx-0 text-center">
+                    <h2 class="text-6xl font-bold">Getting Started </h2>
+                </div>
+                <nav class="mt-20 mb-5">
+                    <div
+                        role="list"
+                        class="grid-cols-1 lg:grid lg:grid-cols-3 grid-rows-3 gap-4"
+                    >
+                    <div>
+                        <a
+                            class="flex flex-col  border-indigo-600 py-2 pl-4  border-t-4 pb-0 pl-0 pt-4"
                         >
-                            <div class="">
-                                <!-- Completed Step -->
-                                <a
-                                    href="#"
-                                    class="group flex flex-col border-l-4 border-indigo-600 py-2 pl-4 hover:border-indigo-800 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4"
+                            <span
+                                class="text-sm font-medium text-indigo-600"
+                                >Step 1</span
+                            >
+                            <span class="text-sm font-medium"
+                                >Choose a Wallet </span
+                            >
+                            
+                        </a>
+
+                        <div class="mt-2 pl-4 flex gap-2">
+                            <a target="_blank" href="https://chromewebstore.google.com/u/1/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli?hl=en" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                <img src="./assets/img/logo/1.png" alt="" class="w-full h-full">
+                            </a>
+                            <a target="_blank" href="https://chromewebstore.google.com/detail/suiet-sui-wallet/khpkpbbcccdmmclmpigdgddabeilkdpd" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                <img src="./assets/img/logo/2.jpg" alt="" class="w-full h-full">
+                            </a>
+                            <a target="_blank" href="https://chromewebstore.google.com/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                <img src="./assets/img/logo/3.jpg" alt="" class="w-full h-full">
+                            </a>
+                        </div>
+                    </div>
+                       
+                        
+                        <div class="lg:col-start-2 lg:row-start-2">
+                            <a
+                                class="flex flex-col  border-indigo-600 py-2 pl-4  border-t-4 pb-0 pl-0 pt-4"
+                            >
+                                <span
+                                    class="text-sm font-medium text-indigo-600"
+                                    >Step 2</span
                                 >
-                                    <span
-                                        class="text-sm font-medium text-indigo-600 group-hover:text-indigo-800"
-                                        >Step 1</span
-                                    >
-                                    <span class="text-sm font-medium"
-                                        >Job details</span
-                                    >
+                                <span class="text-sm font-medium"
+                                    >Buy $SUI on CEXs </span
+                                >
+                            </a>
+                            <div class="mt-2 pl-4 flex gap-2">
+                                <a target="_blank" href="https://www.binance.com/en/trade/SUI_USDT" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/4.jpg" alt="" class="w-full h-full">
                                 </a>
-                            </div>
-                            <div class="col-start-2 row-start-2">
-                                <!-- Current Step -->
-                                <a
-                                    href="#"
-                                    class="flex flex-col border-l-4 border-indigo-600 py-2 pl-4 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4"
-                                    aria-current="step"
-                                >
-                                    <span
-                                        class="text-sm font-medium text-indigo-600"
-                                        >Step 2</span
-                                    >
-                                    <span class="text-sm font-medium"
-                                        >Application form</span
-                                    >
+                                <a target="_blank" href="https://exchange.coinbase.com/trade/SUI-USD" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/5.jpg" alt="" class="w-full h-full">
                                 </a>
-                            </div>
-                            <div class="col-start-3 row-start-3">
-                                <!-- Upcoming Step -->
-                                <a
-                                    href="#"
-                                    class="group flex flex-col border-l-4 border-gray-200 py-2 pl-4 hover:border-gray-300 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4"
-                                >
-                                    <span
-                                        class="text-sm font-medium text-gray-500 group-hover:text-gray-700"
-                                        >Step 3</span
-                                    >
-                                    <span class="text-sm font-medium"
-                                        >Preview</span
-                                    >
+                                <a target="_blank" href="https://pro.kraken.com/app/trade/sui-usd" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/6.jpg" alt="" class="w-full h-full">
+                                </a>
+                                <a target="_blank" href="https://www.okx.com/vi/trade-spot/sui-usdt" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/7.jpg" alt="" class="w-full h-full">
+                                </a>
+                                <a target="_blank" href="https://www.bybit.com/en/trade/spot/SUI/USDT" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/8.jpg" alt="" class="w-full h-full">
                                 </a>
                             </div>
                         </div>
-                    </nav>
-                </div>
-            </main>
-
-            <!-- Footer -->
-            <section
-                class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8"
-            >
-                <div
-                    class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"
-                ></div>
-                <div
-                    class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"
-                ></div>
-                <div class="mx-auto max-w-2xl lg:max-w-4xl">
-                    <img
-                        class="mx-auto h-12"
-                        src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-                        alt=""
-                    />
-                    <figure class="mt-10">
-                        <blockquote
-                            class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9"
-                        >
-                            <p>
-                                “Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Nemo expedita voluptas culpa
-                                sapiente alias molestiae. Numquam corrupti in
-                                laborum sed rerum et corporis.”
-                            </p>
-                        </blockquote>
-                        <figcaption class="mt-10">
-                            <img
-                                class="mx-auto h-10 w-10 rounded-full"
-                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                alt=""
-                            />
-                            <div
-                                class="mt-4 flex items-center justify-center space-x-3 text-base"
+                        <div class="lg:col-start-3 lg:row-start-3">
+                            <a
+                                class="group flex flex-col  border-gray-200 py-2 pl-4 hover:border-gray-300  border-t-4 pb-0 pl-0 pt-4"
                             >
-                                <div class="font-semibold text-gray-900">
-                                    Judith Black
-                                </div>
-                                <svg
-                                    viewBox="0 0 2 2"
-                                    width="3"
-                                    height="3"
-                                    aria-hidden="true"
-                                    class="fill-gray-900"
+                                <span
+                                    class="text-sm font-medium text-gray-500 group-hover:text-gray-700"
+                                    >Step 3</span
                                 >
-                                    <circle cx="1" cy="1" r="1" />
-                                </svg>
-                                <div class="text-gray-600">
-                                    CEO of Workcation
-                                </div>
+                                <span class="text-sm font-medium"
+                                    >Trade your $SUI to $SON</span
+                                >
+                            </a>
+                            <div class="mt-2 pl-4 flex gap-2">
+                                <a target="_blank" href="" class="w-14 h-14 rounded-lg bg-slate-200 block p-2">
+                                    <img src="./assets/img/logo/9.jpg" alt="" class="w-full h-full">
+                                </a>
                             </div>
-                        </figcaption>
-                    </figure>
-                </div>
-            </section>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+               <div class="outro-section flex flex-col justify-center items-center">
+                    <img src="./assets/img/single-droplets.svg" class="w-40" alt="" srcset="">
+                    <img src="./assets/img/brand-name-only.svg" class="w-1/2" alt="" srcset="">
+                    <span class="my-2 block text-sm text-gray-500 text-center font-bold">© 2024 <a href="" class="hover:underline">Suiseason</a>. All Rights Reserved.</span>
+               </div>
+            </main>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var scrollIcon = document.getElementById('scroll-icon');
+
+                window.addEventListener('scroll', function () {
+                    var scrollPosition = window.scrollY;
+                    console.log(scrollPosition)
+
+                    // Adjust the position and opacity based on scroll position
+                    scrollIcon.style.transform =
+                        'translateY(' + scrollPosition + 'px)';
+                    scrollIcon.style.opacity = '1';
+                });
+            });
+        </script>
     </body>
 </html>
