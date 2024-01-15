@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <img src="https://cdn-icons-png.flaticon.com/512/616/616636.png" id="scroll-icon">🡣</img>
+        <img src="./assets/img/fish-icon.svg" id="scroll-icon"></img>
 
         <div class="bg-white">
             <!-- Header -->
@@ -31,34 +31,34 @@
                         </a>
                     </div>
                     
-                    <div class="flex gap-6 text-white ">
+                    <div class="flex gap-4 text-white ">
                         <a
                             href="#howtobuy"
-                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300 p-2"
                             >How to buy</a
                         >
                         <a
                             href="#chart"
-                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300 p-2"
                             target="_blank"
                             >Chart</a
                         >
                         <a
                             href="https://twitter.com/Suiseason_lfg"
-                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300 p-2"
                             target="_blank"
                             >Twitter</a
                         >
                         <a
                             href="https://t.me/Suiseason_lord "
-                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300"
+                            class="text-lg font-semibold leading-6 text-white hover:text-blue-300 p-2"
                             target="_blank"
                             >Telegram</a
                         >
 
                         <a
                             href="#buy"
-                            class="text-base font-semibold leading-6 text-white uppercase"
+                            class="text-base font-semibold leading-6 text-white uppercase bg-blue-300 px-6 rounded-full p-2 hover:bg-blue-400"
                             >Buy</a
                         >
                     </div>
@@ -79,7 +79,7 @@
                             Why $SON?
                         </h3>
                         <p class="header-description mt-4 text-blue-800 font-semibold">
-                            $SON is the mischievous younger brother of $SUI. Being the eldest in the family, it carries a big mission...
+                            $SON is the mischievous son of $SUI. Being the eldest in the family, it carries a big mission...
                             Get ready for the Sui meme season to kick in!
                         </p>
                     </div>
@@ -209,20 +209,27 @@
             </main>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var scrollIcon = document.getElementById('scroll-icon');
+        
+            <script>
+                // Get the icon element
+                const icon = document.getElementById('scroll-icon');
 
-                window.addEventListener('scroll', function () {
-                    var scrollPosition = window.scrollY;
-                    console.log(scrollPosition)
+                // Function to update the icon position based on scroll percentage
+                function updateIconPosition() {
+                    const totalHeight = document.body.scrollHeight - window.innerHeight;
+                    const scrollTop = window.scrollY;
+                    const scrollPercentage = (scrollTop / totalHeight) * 100;
 
-                    // Adjust the position and opacity based on scroll position
-                    scrollIcon.style.transform =
-                        'translateY(' + scrollPosition + 'px)';
-                    scrollIcon.style.opacity = '1';
-                });
-            });
-        </script>
+                    // Update the top position of the icon based on the scroll percentage
+                    icon.style.top = `${scrollPercentage}%`;
+                }
+
+                // Attach the function to the 'scroll' event
+                window.addEventListener('scroll', updateIconPosition);
+
+                // Call the function initially to set the initial position of the icon
+                updateIconPosition();
+            </script>
+
     </body>
 </html>

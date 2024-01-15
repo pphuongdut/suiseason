@@ -125,8 +125,8 @@
 
 .about-me-section {
     height: 100vh;
-    background-image: url(../img/sui-bg.jpg);
-    background-size: 100% 100%;
+    background-image: url(../img/slide-2-bg.svg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
