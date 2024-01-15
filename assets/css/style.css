@@ -136,8 +136,10 @@
     background-repeat: no-repeat;
 }
 
-.notax-text {
-    left: 450px;
+.stats-section {
+    background-image: url(../img/slide-2/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #scroll-icon {
