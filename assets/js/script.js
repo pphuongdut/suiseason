@@ -21,9 +21,7 @@ updateIconPosition();
 // Header Typewriter
 const headerDescription = document.getElementById('header-description');
 const aText = [
-    '$SON is the mischievous younger brother of $SUI.',
-    'Being the eldest in the family, it carries a big mission...',
-    'Get ready for the Sui meme season to kick in!',
+    `$SSS - a token marking a new explosion milestone of Meme season on Solana. 100% community-led, no roadmap, no real value. Don't jump in if you're not feeling good about it!"`,
 ];
 
 let typewriter = () => {
