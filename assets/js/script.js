@@ -21,7 +21,7 @@ updateIconPosition();
 // Header Typewriter
 const headerDescription = document.getElementById('header-description');
 const aText = [
-    `$SSS - a token marking a new explosion milestone of Meme season on Solana. 100% community-led, no roadmap, no real value. Don't jump in if you're not feeling good about it!"`,
+    `$SOSE - a token marking a new explosion milestone of Meme season on Solana. 100% community-led, no roadmap, no real value. Don't jump in if you're not feeling good about it!"`,
 ];
 
 let typewriter = () => {
